@@ -93,15 +93,4 @@ $(function(){
             return false;
         }
     }
-    // function number(){
-    //     var $numm=$('#name-validation-message');
-    //     if(/[^\d]/.test($num.val())){
-    //             $numm.html('');
-    //             return true;
-    //     }
-    //     else{
-    //         $numm.html('用户名仅支持中英文，数字和下划线，且不能为纯数字');
-    //         return false;
-    //     }
-    // }
 })
