@@ -35,6 +35,7 @@ $(function(){
             if(i===0){
                 clearInterval(timer);
                 $btn.val("获取验证码");
+                $btn.removeAttr("disabled","disabled")
             }else{
                 $btn.attr("disabled","disabled")
                 $btn.val('已发送('+i+'s)');
