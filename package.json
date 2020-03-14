@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/zhangxiaohuan8/Baidu/issues"
   },
-  "homepage": "https://github.com/zhangxiaohuan8/Baidu#readme"
+  "homepage": "https://github.com/zhangxiaohuan8/Baidu#readme",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-uglify": "^4.0.1"
+  }
 }
