@@ -89,7 +89,7 @@ $(function(){
                 return true;
         }
         else{
-            $pass.html('密码设置不符合要求');
+            $pass.html('密码设置不符合要求!');
             return false;
         }
     }
